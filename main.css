@@ -1,0 +1,65 @@
+.Container{
+    display: inline-block;
+    width: 800px;
+    background-color: blue;
+    margin-left: calc((100% - 800px) / 2);
+
+}
+.left-column{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    background-color: rgb(80, 185, 255);
+    color: #fff;
+}
+.main-title{
+    display: inline-block;
+    width: 100%;
+}
+
+.bottom-links{
+    display: inline-block;
+    width: 100%;
+}
+.bottom-links > .link{
+    display: inline-block;
+    width: 100%;
+}
+
+.symbol{
+    display: inline-block;
+    width: 100%;
+}
+.right-column{
+    display: inline-block;
+    width: 60%;
+    float: right;
+    background-color: #fff;
+}
+.close{
+    display: inline-block;
+}
+.form{
+    display: inline-block;
+    width: 100%;
+}
+.form-row{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+label{
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    color: silver;
+    font-size: 14px;
+}
+input{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid silver;
+}
