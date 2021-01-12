@@ -25,7 +25,7 @@
 }
 .bottom-links > .link{
     display: inline-block;
-    width: 100%;
+  
 }
 
 .symbol{
@@ -35,11 +35,14 @@
 .right-column{
     display: inline-block;
     width: 60%;
+    padding: 40px;
     float: right;
     background-color: #fff;
 }
 .close{
     display: inline-block;
+    width: 60px;
+    height: 60px;
 }
 .form{
     display: inline-block;
@@ -71,9 +74,9 @@ input{
     border-bottom: 2px solid silver;
     
 }
-.btn{
+.btn {
     display: inline-block;
-    background-color: #005BD9;
+    background-color: #005bd9;
     color: #fff;
     padding: 10px;
     padding-left: 40px;
@@ -84,25 +87,25 @@ input{
     border: none;
     text-transform: capitalize;
     cursor: pointer;
-  
 }
 .btn:hover{
-    background-color: #2576e7;
+    background-color: #005ad9a1 ;
 }
+
 .text{
     display: inline-block;
     padding: 10px;
-    margin-left: 10px;
-    font-size:18px;
+    font-size: 18px;
     line-height: 20px;
+    margin-left: 10px;
 
 }
-.form-row > .link {
+.form-row > .link{
     display: inline-block;
     padding: 10px;
-    line-height: 20px;
     font-size: 18px;
-    color: #005bd9;
+    line-height: 20px;
     text-decoration: none;
+    color:  #005bd9;
+    
 }
-
