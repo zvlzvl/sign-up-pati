@@ -11,10 +11,12 @@
     float: left;
     background-color: rgb(80, 185, 255);
     color: #fff;
+    padding: 40px;
 }
 .main-title{
     display: inline-block;
     width: 100%;
+    
 }
 
 .bottom-links{
@@ -49,6 +51,10 @@
     margin-bottom: 30px;
 
 }
+.form-row:last-of-type{
+    margin-top: 0;
+}
+
 label{
     display: inline-block;
     width: 100%;
@@ -60,6 +66,43 @@ input{
     display: inline-block;
     width: 100%;
     font-size: 20px;
+    line-height: 40px;
     border: none;
     border-bottom: 2px solid silver;
+    
 }
+.btn{
+    display: inline-block;
+    background-color: #005BD9;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+  
+}
+.btn:hover{
+    background-color: #2576e7;
+}
+.text{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    font-size:18px;
+    line-height: 20px;
+
+}
+.form-row > .link {
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #005bd9;
+    text-decoration: none;
+}
+
